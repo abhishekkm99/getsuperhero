@@ -50,7 +50,7 @@ const getSearchSuperHero = (name) =>{
     .then(response=> response.json())
     .then(json=> {
         const hero = json.results[0]
-        console.log(hero);
+//         console.log(hero);
         getSuperHeroStatus(hero)
     })
 }
